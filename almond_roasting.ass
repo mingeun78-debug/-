@@ -1,0 +1,24 @@
+[Script Info]
+; almond_roasting.mp4 자막 (720x1280 세로 영상)
+; 문구나 시간을 바꾸려면 아래 [Events]의 Dialogue 줄만 고치면 됩니다.
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+; Title: 화면 위쪽 큰 제목 / Caption: 화면 아래쪽 설명 자막
+Style: Title,NanumSquareRound,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,40,40,170,1
+Style: Caption,NanumSquareRound,52,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,4,2,2,40,40,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:04.50,Title,,0,0,0,,{\fad(300,300)}아몬드 로스팅
+Dialogue: 0,0:00:00.50,0:00:05.00,Caption,,0,0,0,,{\fad(250,250)}로스터기에서 아몬드를 볶아요
+Dialogue: 0,0:00:05.20,0:00:10.00,Caption,,0,0,0,,{\fad(250,250)}드럼이 돌면서 골고루 익어요
+Dialogue: 0,0:00:10.60,0:00:15.50,Caption,,0,0,0,,{\fad(250,250)}다 볶은 아몬드를 꺼내요
+Dialogue: 0,0:00:15.70,0:00:23.00,Caption,,0,0,0,,{\fad(250,250)}망에 펼쳐서 식혀요
+Dialogue: 0,0:00:23.40,0:00:26.00,Caption,,0,0,0,,{\fad(250,250)}식힌 아몬드를 그릇에 담고
+Dialogue: 0,0:00:26.20,0:00:29.50,Caption,,0,0,0,,{\fad(250,300)}병에 담으면 완성!
